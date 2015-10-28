@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4245871BE155CD00CE23C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245861BE155CD00CE23C8 /* AppDelegate.swift */; };
+		7F4245891BE155CD00CE23C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245881BE155CD00CE23C8 /* ViewController.swift */; };
+		7F42458C1BE155CD00CE23C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F42458A1BE155CD00CE23C8 /* Main.storyboard */; };
+		7F42458E1BE155CD00CE23C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F42458D1BE155CD00CE23C8 /* Assets.xcassets */; };
+		7F4245911BE155CD00CE23C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F42458F1BE155CD00CE23C8 /* LaunchScreen.storyboard */; };
+		7F42459C1BE155CD00CE23C8 /* BandwidthConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42459B1BE155CD00CE23C8 /* BandwidthConversionTests.swift */; };
+		7F4245A71BE155CD00CE23C8 /* BandwidthConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245A61BE155CD00CE23C8 /* BandwidthConversionUITests.swift */; };
+		7F4245AC1BE155CD00CE23C8 /* BandwidthConversion WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7F4245AB1BE155CD00CE23C8 /* BandwidthConversion WatchKit App.app */; };
+		7F4245B21BE155CD00CE23C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4245B01BE155CD00CE23C8 /* Interface.storyboard */; };
+		7F4245B41BE155CD00CE23C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4245B31BE155CD00CE23C8 /* Assets.xcassets */; };
+		7F4245BB1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7F4245BA1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F4245C21BE155CD00CE23C8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245C11BE155CD00CE23C8 /* InterfaceController.swift */; };
+		7F4245C41BE155CD00CE23C8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245C31BE155CD00CE23C8 /* ExtensionDelegate.swift */; };
+		7F4245C61BE155CD00CE23C8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245C51BE155CD00CE23C8 /* NotificationController.swift */; };
+		7F4245C81BE155CD00CE23C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4245C71BE155CD00CE23C8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F4245981BE155CD00CE23C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F42457B1BE155CD00CE23C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4245821BE155CD00CE23C8;
+			remoteInfo = BandwidthConversion;
+		};
+		7F4245A31BE155CD00CE23C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F42457B1BE155CD00CE23C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4245821BE155CD00CE23C8;
+			remoteInfo = BandwidthConversion;
+		};
+		7F4245AD1BE155CD00CE23C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F42457B1BE155CD00CE23C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4245AA1BE155CD00CE23C8;
+			remoteInfo = "BandwidthConversion WatchKit App";
+		};
+		7F4245BC1BE155CD00CE23C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F42457B1BE155CD00CE23C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4245B91BE155CD00CE23C8;
+			remoteInfo = "BandwidthConversion WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F4245CF1BE155CD00CE23C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7F4245BB1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245D31BE155CD00CE23C8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7F4245AC1BE155CD00CE23C8 /* BandwidthConversion WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F4245831BE155CD00CE23C8 /* BandwidthConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandwidthConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4245861BE155CD00CE23C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F4245881BE155CD00CE23C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F42458B1BE155CD00CE23C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F42458D1BE155CD00CE23C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4245901BE155CD00CE23C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4245921BE155CD00CE23C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4245971BE155CD00CE23C8 /* BandwidthConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandwidthConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F42459B1BE155CD00CE23C8 /* BandwidthConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandwidthConversionTests.swift; sourceTree = "<group>"; };
+		7F42459D1BE155CD00CE23C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4245A21BE155CD00CE23C8 /* BandwidthConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandwidthConversionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4245A61BE155CD00CE23C8 /* BandwidthConversionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandwidthConversionUITests.swift; sourceTree = "<group>"; };
+		7F4245A81BE155CD00CE23C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4245AB1BE155CD00CE23C8 /* BandwidthConversion WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BandwidthConversion WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4245B11BE155CD00CE23C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7F4245B31BE155CD00CE23C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4245B51BE155CD00CE23C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4245BA1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BandwidthConversion WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4245C01BE155CD00CE23C8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7F4245C11BE155CD00CE23C8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7F4245C31BE155CD00CE23C8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7F4245C51BE155CD00CE23C8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7F4245C71BE155CD00CE23C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4245C91BE155CD00CE23C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F4245801BE155CD00CE23C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245941BE155CD00CE23C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F42459F1BE155CD00CE23C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245B71BE155CD00CE23C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F42457A1BE155CD00CE23C8 = {
+			isa = PBXGroup;
+			children = (
+				7F4245851BE155CD00CE23C8 /* BandwidthConversion */,
+				7F42459A1BE155CD00CE23C8 /* BandwidthConversionTests */,
+				7F4245A51BE155CD00CE23C8 /* BandwidthConversionUITests */,
+				7F4245AF1BE155CD00CE23C8 /* BandwidthConversion WatchKit App */,
+				7F4245BE1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension */,
+				7F4245841BE155CD00CE23C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F4245841BE155CD00CE23C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F4245831BE155CD00CE23C8 /* BandwidthConversion.app */,
+				7F4245971BE155CD00CE23C8 /* BandwidthConversionTests.xctest */,
+				7F4245A21BE155CD00CE23C8 /* BandwidthConversionUITests.xctest */,
+				7F4245AB1BE155CD00CE23C8 /* BandwidthConversion WatchKit App.app */,
+				7F4245BA1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F4245851BE155CD00CE23C8 /* BandwidthConversion */ = {
+			isa = PBXGroup;
+			children = (
+				7F4245861BE155CD00CE23C8 /* AppDelegate.swift */,
+				7F4245881BE155CD00CE23C8 /* ViewController.swift */,
+				7F42458A1BE155CD00CE23C8 /* Main.storyboard */,
+				7F42458D1BE155CD00CE23C8 /* Assets.xcassets */,
+				7F42458F1BE155CD00CE23C8 /* LaunchScreen.storyboard */,
+				7F4245921BE155CD00CE23C8 /* Info.plist */,
+			);
+			path = BandwidthConversion;
+			sourceTree = "<group>";
+		};
+		7F42459A1BE155CD00CE23C8 /* BandwidthConversionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F42459B1BE155CD00CE23C8 /* BandwidthConversionTests.swift */,
+				7F42459D1BE155CD00CE23C8 /* Info.plist */,
+			);
+			path = BandwidthConversionTests;
+			sourceTree = "<group>";
+		};
+		7F4245A51BE155CD00CE23C8 /* BandwidthConversionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F4245A61BE155CD00CE23C8 /* BandwidthConversionUITests.swift */,
+				7F4245A81BE155CD00CE23C8 /* Info.plist */,
+			);
+			path = BandwidthConversionUITests;
+			sourceTree = "<group>";
+		};
+		7F4245AF1BE155CD00CE23C8 /* BandwidthConversion WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7F4245B01BE155CD00CE23C8 /* Interface.storyboard */,
+				7F4245B31BE155CD00CE23C8 /* Assets.xcassets */,
+				7F4245B51BE155CD00CE23C8 /* Info.plist */,
+			);
+			path = "BandwidthConversion WatchKit App";
+			sourceTree = "<group>";
+		};
+		7F4245BE1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F4245C11BE155CD00CE23C8 /* InterfaceController.swift */,
+				7F4245C31BE155CD00CE23C8 /* ExtensionDelegate.swift */,
+				7F4245C51BE155CD00CE23C8 /* NotificationController.swift */,
+				7F4245C71BE155CD00CE23C8 /* Assets.xcassets */,
+				7F4245C91BE155CD00CE23C8 /* Info.plist */,
+				7F4245BF1BE155CD00CE23C8 /* Supporting Files */,
+			);
+			path = "BandwidthConversion WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7F4245BF1BE155CD00CE23C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F4245C01BE155CD00CE23C8 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F4245821BE155CD00CE23C8 /* BandwidthConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4245D41BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversion" */;
+			buildPhases = (
+				7F42457F1BE155CD00CE23C8 /* Sources */,
+				7F4245801BE155CD00CE23C8 /* Frameworks */,
+				7F4245811BE155CD00CE23C8 /* Resources */,
+				7F4245D31BE155CD00CE23C8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4245AE1BE155CD00CE23C8 /* PBXTargetDependency */,
+			);
+			name = BandwidthConversion;
+			productName = BandwidthConversion;
+			productReference = 7F4245831BE155CD00CE23C8 /* BandwidthConversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4245961BE155CD00CE23C8 /* BandwidthConversionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4245D71BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversionTests" */;
+			buildPhases = (
+				7F4245931BE155CD00CE23C8 /* Sources */,
+				7F4245941BE155CD00CE23C8 /* Frameworks */,
+				7F4245951BE155CD00CE23C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4245991BE155CD00CE23C8 /* PBXTargetDependency */,
+			);
+			name = BandwidthConversionTests;
+			productName = BandwidthConversionTests;
+			productReference = 7F4245971BE155CD00CE23C8 /* BandwidthConversionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F4245A11BE155CD00CE23C8 /* BandwidthConversionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4245DA1BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversionUITests" */;
+			buildPhases = (
+				7F42459E1BE155CD00CE23C8 /* Sources */,
+				7F42459F1BE155CD00CE23C8 /* Frameworks */,
+				7F4245A01BE155CD00CE23C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4245A41BE155CD00CE23C8 /* PBXTargetDependency */,
+			);
+			name = BandwidthConversionUITests;
+			productName = BandwidthConversionUITests;
+			productReference = 7F4245A21BE155CD00CE23C8 /* BandwidthConversionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7F4245AA1BE155CD00CE23C8 /* BandwidthConversion WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4245D01BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversion WatchKit App" */;
+			buildPhases = (
+				7F4245A91BE155CD00CE23C8 /* Resources */,
+				7F4245CF1BE155CD00CE23C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4245BD1BE155CD00CE23C8 /* PBXTargetDependency */,
+			);
+			name = "BandwidthConversion WatchKit App";
+			productName = "BandwidthConversion WatchKit App";
+			productReference = 7F4245AB1BE155CD00CE23C8 /* BandwidthConversion WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7F4245B91BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4245CC1BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversion WatchKit Extension" */;
+			buildPhases = (
+				7F4245B61BE155CD00CE23C8 /* Sources */,
+				7F4245B71BE155CD00CE23C8 /* Frameworks */,
+				7F4245B81BE155CD00CE23C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BandwidthConversion WatchKit Extension";
+			productName = "BandwidthConversion WatchKit Extension";
+			productReference = 7F4245BA1BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F42457B1BE155CD00CE23C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Abraham Rohde";
+				TargetAttributes = {
+					7F4245821BE155CD00CE23C8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7F4245961BE155CD00CE23C8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7F4245821BE155CD00CE23C8;
+					};
+					7F4245A11BE155CD00CE23C8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7F4245821BE155CD00CE23C8;
+					};
+					7F4245AA1BE155CD00CE23C8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7F4245B91BE155CD00CE23C8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F42457E1BE155CD00CE23C8 /* Build configuration list for PBXProject "BandwidthConversion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F42457A1BE155CD00CE23C8;
+			productRefGroup = 7F4245841BE155CD00CE23C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4245821BE155CD00CE23C8 /* BandwidthConversion */,
+				7F4245961BE155CD00CE23C8 /* BandwidthConversionTests */,
+				7F4245A11BE155CD00CE23C8 /* BandwidthConversionUITests */,
+				7F4245AA1BE155CD00CE23C8 /* BandwidthConversion WatchKit App */,
+				7F4245B91BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F4245811BE155CD00CE23C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4245911BE155CD00CE23C8 /* LaunchScreen.storyboard in Resources */,
+				7F42458E1BE155CD00CE23C8 /* Assets.xcassets in Resources */,
+				7F42458C1BE155CD00CE23C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245951BE155CD00CE23C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245A01BE155CD00CE23C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245A91BE155CD00CE23C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4245B41BE155CD00CE23C8 /* Assets.xcassets in Resources */,
+				7F4245B21BE155CD00CE23C8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245B81BE155CD00CE23C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4245C81BE155CD00CE23C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F42457F1BE155CD00CE23C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4245891BE155CD00CE23C8 /* ViewController.swift in Sources */,
+				7F4245871BE155CD00CE23C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245931BE155CD00CE23C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F42459C1BE155CD00CE23C8 /* BandwidthConversionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F42459E1BE155CD00CE23C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4245A71BE155CD00CE23C8 /* BandwidthConversionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4245B61BE155CD00CE23C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4245C61BE155CD00CE23C8 /* NotificationController.swift in Sources */,
+				7F4245C41BE155CD00CE23C8 /* ExtensionDelegate.swift in Sources */,
+				7F4245C21BE155CD00CE23C8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F4245991BE155CD00CE23C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F4245821BE155CD00CE23C8 /* BandwidthConversion */;
+			targetProxy = 7F4245981BE155CD00CE23C8 /* PBXContainerItemProxy */;
+		};
+		7F4245A41BE155CD00CE23C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F4245821BE155CD00CE23C8 /* BandwidthConversion */;
+			targetProxy = 7F4245A31BE155CD00CE23C8 /* PBXContainerItemProxy */;
+		};
+		7F4245AE1BE155CD00CE23C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F4245AA1BE155CD00CE23C8 /* BandwidthConversion WatchKit App */;
+			targetProxy = 7F4245AD1BE155CD00CE23C8 /* PBXContainerItemProxy */;
+		};
+		7F4245BD1BE155CD00CE23C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F4245B91BE155CD00CE23C8 /* BandwidthConversion WatchKit Extension */;
+			targetProxy = 7F4245BC1BE155CD00CE23C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F42458A1BE155CD00CE23C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F42458B1BE155CD00CE23C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F42458F1BE155CD00CE23C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4245901BE155CD00CE23C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4245B01BE155CD00CE23C8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4245B11BE155CD00CE23C8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F4245CA1BE155CD00CE23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4245CB1BE155CD00CE23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F4245CD1BE155CD00CE23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BandwidthConversion WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversion.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7F4245CE1BE155CD00CE23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BandwidthConversion WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversion.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7F4245D11BE155CD00CE23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = BandwidthConversion_WatchKit_Extension;
+				INFOPLIST_FILE = "BandwidthConversion WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7F4245D21BE155CD00CE23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = BandwidthConversion_WatchKit_Extension;
+				INFOPLIST_FILE = "BandwidthConversion WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7F4245D51BE155CD00CE23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BandwidthConversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F4245D61BE155CD00CE23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BandwidthConversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F4245D81BE155CD00CE23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandwidthConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandwidthConversion.app/BandwidthConversion";
+			};
+			name = Debug;
+		};
+		7F4245D91BE155CD00CE23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandwidthConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandwidthConversion.app/BandwidthConversion";
+			};
+			name = Release;
+		};
+		7F4245DB1BE155CD00CE23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandwidthConversionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandwidthConversion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7F4245DC1BE155CD00CE23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandwidthConversionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rohde.BandwidthConversionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandwidthConversion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F42457E1BE155CD00CE23C8 /* Build configuration list for PBXProject "BandwidthConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4245CA1BE155CD00CE23C8 /* Debug */,
+				7F4245CB1BE155CD00CE23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4245CC1BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversion WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4245CD1BE155CD00CE23C8 /* Debug */,
+				7F4245CE1BE155CD00CE23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4245D01BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversion WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4245D11BE155CD00CE23C8 /* Debug */,
+				7F4245D21BE155CD00CE23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4245D41BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4245D51BE155CD00CE23C8 /* Debug */,
+				7F4245D61BE155CD00CE23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4245D71BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4245D81BE155CD00CE23C8 /* Debug */,
+				7F4245D91BE155CD00CE23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4245DA1BE155CD00CE23C8 /* Build configuration list for PBXNativeTarget "BandwidthConversionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4245DB1BE155CD00CE23C8 /* Debug */,
+				7F4245DC1BE155CD00CE23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F42457B1BE155CD00CE23C8 /* Project object */;
+}
