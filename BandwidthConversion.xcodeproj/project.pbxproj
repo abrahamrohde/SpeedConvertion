@@ -22,6 +22,8 @@
 		7F4245C41BE155CD00CE23C8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245C31BE155CD00CE23C8 /* ExtensionDelegate.swift */; };
 		7F4245C61BE155CD00CE23C8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245C51BE155CD00CE23C8 /* NotificationController.swift */; };
 		7F4245C81BE155CD00CE23C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4245C71BE155CD00CE23C8 /* Assets.xcassets */; };
+		7F4245DE1BE159B000CE23C8 /* Screen2IC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245DD1BE159B000CE23C8 /* Screen2IC.swift */; };
+		7F4245E01BE15AFC00CE23C8 /* SpeedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4245DF1BE15AFC00CE23C8 /* SpeedRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		7F4245C51BE155CD00CE23C8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		7F4245C71BE155CD00CE23C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F4245C91BE155CD00CE23C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4245DD1BE159B000CE23C8 /* Screen2IC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen2IC.swift; sourceTree = "<group>"; };
+		7F4245DF1BE15AFC00CE23C8 /* SpeedRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				7F4245C11BE155CD00CE23C8 /* InterfaceController.swift */,
+				7F4245DD1BE159B000CE23C8 /* Screen2IC.swift */,
+				7F4245DF1BE15AFC00CE23C8 /* SpeedRow.swift */,
 				7F4245C31BE155CD00CE23C8 /* ExtensionDelegate.swift */,
 				7F4245C51BE155CD00CE23C8 /* NotificationController.swift */,
 				7F4245C71BE155CD00CE23C8 /* Assets.xcassets */,
@@ -442,8 +448,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4245DE1BE159B000CE23C8 /* Screen2IC.swift in Sources */,
 				7F4245C61BE155CD00CE23C8 /* NotificationController.swift in Sources */,
 				7F4245C41BE155CD00CE23C8 /* ExtensionDelegate.swift in Sources */,
+				7F4245E01BE15AFC00CE23C8 /* SpeedRow.swift in Sources */,
 				7F4245C21BE155CD00CE23C8 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
